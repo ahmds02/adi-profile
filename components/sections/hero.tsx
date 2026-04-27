@@ -11,9 +11,9 @@ export function HeroSection() {
                     </Badge>
                     {/* PERBAIKAN: Ukuran teks disesuaikan untuk mobile (text-3xl sm:text-4xl) */}
                     <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.1]">
-                        Hi, I'm <br className="hidden md:block" />
+                        Hallooo, saya <br className="hidden md:block" />
                         <span className="bg-clip-text text-transparent bg-linear-to-r from-primary to-blue-500">
-                            Uciha Sasuke
+                            Ahmad Satriadi Suryawan
                         </span>
                     </h1>
                     {/* PERBAIKAN: Teks deskripsi dibuat lebih responsif (text-sm sm:text-base) */}
@@ -25,7 +25,7 @@ export function HeroSection() {
                 <div className="shrink-0 relative group md:mt-4 mb-4 md:mb-0">
                     <div className="absolute -inset-1 bg-linear-to-r from-primary to-blue-500 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
                     <Avatar className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-64 md:h-64 border-4 border-background shadow-2xl ring-1 ring-border">
-                        <AvatarImage src="/profile.jpg" alt="bzar" className="object-cover" />
+                        <AvatarImage src="/profile.png" alt="bzar" className="object-cover" />
                         <AvatarFallback className="text-2xl md:text-4xl bg-primary text-primary-foreground font-bold">DA</AvatarFallback>
                     </Avatar>
                 </div>
