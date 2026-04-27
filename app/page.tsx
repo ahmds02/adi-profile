@@ -37,7 +37,7 @@ export default function Home() {
           <div className="hover:scale-105 hover:rotate-3 transition-transform duration-300 flex items-center justify-center">
              <img 
                src="/favicon.ico" 
-               alt="Dimas Logo" 
+               alt="ADI Logo" 
                className="w-9 h-9 md:w-10 md:h-10 rounded-md md:rounded-lg shadow-sm object-contain bg-background border border-border/20"
              />
           </div>

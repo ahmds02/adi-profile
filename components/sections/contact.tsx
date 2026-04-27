@@ -23,23 +23,23 @@ export function ContactSection() {
                     <div className="space-y-3 md:space-y-4 flex flex-col items-center md:items-start">
                         <div className="flex items-center gap-4 text-muted-foreground hover:text-foreground transition-colors">
                             <div className="bg-primary/10 p-2.5 md:p-3 rounded-full text-primary"><Phone size={18} className="md:w-5 md:h-5" /></div>
-                            <span className="text-sm md:text-base">+62 857-2791-4053</span>
+                            <span className="text-sm md:text-base">+6281548285614</span>
                         </div>
                         <div className="flex items-center gap-4 text-muted-foreground hover:text-foreground transition-colors">
                             <div className="bg-primary/10 p-2.5 md:p-3 rounded-full text-primary"><Mail size={18} className="md:w-5 md:h-5" /></div>
-                            <span className="text-sm md:text-base">dimasfadly01@gmail.com</span>
+                            <span className="text-sm md:text-base">ahmadsatriadisuryawan@gmail.com</span>
                         </div>
                     </div>
 
                     {/* 2. Tambahkan tombol LinkedIn di sebelah GitHub */}
                     <div className="flex gap-4 justify-center md:justify-start pt-2 md:pt-4">
-                        <Link href="https://github.com/dmfdzr" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://github.com/ahmds02" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
                                 <Github size={20} />
                             </Button>
                         </Link>
                         
-                        <Link href="https://linkedin.com/in/dimasabidzarfadly" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://www.linkedin.com/in/ahmad-satriadi-suryawan/" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
                                 <Linkedin size={20} />
                             </Button>

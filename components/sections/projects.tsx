@@ -16,43 +16,41 @@ const experiences = [
     {
         id: "sat",
         company: "PT. Sumber Alfaria Trijaya, Tbk.",
-        role: "Building Maintenance Digital Store",
-        period: "November 2025 - May 2026",
+        role: "Procurement Data & System Specialist",
+        period: "Oktober 2025 - April 2026",
         badge: "Internship",
         icon: <Briefcase className="text-blue-500" size={24} />,
         description: "Actively contributed to the development and maintenance of large-scale digital store platforms.",
         details: [
-            "Developing the Sparta Building application using Vanilla JavaScript, focusing on efficient DOM manipulation and lightweight performance.",
-            "Migrate the Sparta Building platform using Next.js and TypeScript to ensure type safety and modular component architecture.",
-            "Integrating RESTful APIs across both platforms to facilitate real-time data exchange and dynamic content rendering.",
-            "Focused on writing clean, maintainable code and optimizing frontend performance to meet specific business requirements for both systems."
+            "Berperan sebagai fungsi pusat Data & System Procurement yang terlibat dalam end-to-end proses pengadaan, menjembatani bisnis–sistem, menjaga konsistensi & integritas data nasional, serta mengoordinasikan alur procurement lintas Tim Buyer, cabang Alfamart, dan unit Alfa Group.",
+            "Mengelola master & data strategis procurement end-to-end (SPH, vendor, PLU, SPK/PO), menyusun laporan evaluasi supplier nasional, serta menjaga akurasi & integritas data sebagai dasar pengambilan keputusan lintas cabang dan divisi.",
+            "Terlibat dalam pengembangan sistem procurement end-to-end lintas Business–IT, termasuk perancangan flow aplikasi, desain UI/UX (Figma), serta pelaksanaan QA dan (UAT) bersama tim IT untuk memastikan kesesuaian dengan kebutuhan bisnis.",
+            "Mengembangkan 1 website internal secara full stack (frontend, backend, dan database) untuk mendukung digitalisasi proses."
         ],
-        stack: ["Javascript", "Next.js", "TypeScript", "RESTful API", "Tailwind CSS"],
-        links: [
-            { label: "Test App", url: "https://sparta-bnm.vercel.app", icon: <ExternalLink size={16} />, variant: "default" },
-            { label: "Live App", url: "https://sparta-alfamart.vercel.app", icon: <ExternalLink size={16} />, variant: "default" },
-            { label: "Source Code Next.JS", url: "https://github.com/dmfdzr/sparta-fe.git", icon: <Github size={16} />, variant: "outline" },
-            { label: "Source Code VanillaJS", url: "https://github.com/dmfdzr/sparta-frontend.git", icon: <Github size={16} />, variant: "outline" }
-        ]
+        stack: ["Excel", "Figma", "Python", "Databaase Administraton", "Internal Application", "Flow System"],
+       // links: [
+           // { label: "Test App", url: "https://sparta-bnm.vercel.app", icon: <ExternalLink size={16} />, variant: "default" },
+           // { label: "Live App", url: "https://sparta-alfamart.vercel.app", icon: <ExternalLink size={16} />, variant: "default" },
+          //  { label: "Source Code Next.JS", url: "https://github.com/dmfdzr/sparta-fe.git", icon: <Github size={16} />, variant: "outline" },
+        //    { label: "Source Code VanillaJS", url: "https://github.com/dmfdzr/sparta-frontend.git", icon: <Github size={16} />, variant: "outline" }
+       // ]
     },
     {
-        id: "indocyber",
-        company: "PT. Indocyber Global Teknologi",
-        role: "Microsoft SQL Server",
-        period: "September 2025 - October 2025",
+        id: "lentera",
+        company: "VINIX 7",
+        role: "Junior Data Scientist",
+        period: "Februari 2025 - Mei 2025",
         badge: "Work Training",
         icon: <Database className="text-green-500" size={24} />,
         description: "Focused on integrated web development with relational database management.",
         details: [
-            "Learned practical skills in database management using Microsoft SQL Server (SSMS)",
-            "Designed and optimized relational databases to support real-world applications",
-            "Practiced backend database integration using SQL queries and stored procedures",
-            "Focused on data handling, query performance, and reporting for work-related scenarios"
+            "Mengikuti program pembelajaran intensif data science yang mencakup Python, SQL, Machine Learning, dan Business Intelligence dengan pendekatan praktik langsung",
+            "Menyampaikan insight melalui visualisasi interaktif dan storytelling data menggunakan pendekatan Business Intelligence dan alat bantu visual seperti Power BI.",
         ],
-        stack: ["SSMS", "SQL Queries"],
-        links: [
+        stack: ["MySql", "Database", "Machine Learning", "Business Intelligence", "Power BI",],
+      /*  links: [
             { label: "View Course", url: "https://drive.google.com/drive/folders/1yi5vJ5lA0d8Lzp14RBzpyqeGDpLPdmat?usp=sharing", icon: <ExternalLink size={16} />, variant: "default" }
-        ]
+        ]*/
     },
     {
         id: "kinema",
@@ -75,13 +73,13 @@ const experiences = [
             "Making Prototype Product",
             "Developing Frontend Website"
         ],
-        stack: ["Figma", "Prototyping", "Product Research", "UI/UX Principles", "Frontend Development"],
-        links: [
-            { label: "ReLive Project", url: "https://relive-health.vercel.app/", icon: <ExternalLink size={16} />, variant: "outline" },
-            { label: "Source Code ReLive", url: "https://github.com/dmfdzr/relive-frontend.git", icon: <Github size={16} />, variant: "outline" },
-            { label: "YakinKerja Project", url: "https://freelance-lake.vercel.app/", icon: <ExternalLink size={16} />, variant: "outline" },
-            { label: "Source Code YakinKerja", url: "https://github.com/dmfdzr/freelance.git", icon: <Github size={16} />, variant: "outline" }
-        ]
+        stack: ["Figma", "Prototyping", "Product Research", "UI/UX Principles", "Frontend Development", "Backend Development", "Flow System"],
+       // links: [
+         //   { label: "ReLive Project", url: "https://relive-health.vercel.app/", icon: <ExternalLink size={16} />, variant: "outline" },
+         //   { label: "Source Code ReLive", url: "https://github.com/dmfdzr/relive-frontend.git", icon: <Github size={16} />, variant: "outline" },
+         //   { label: "YakinKerja Project", url: "https://freelance-lake.vercel.app/", icon: <ExternalLink size={16} />, variant: "outline" },
+         //   { label: "Source Code YakinKerja", url: "https://github.com/dmfdzr/freelance.git", icon: <Github size={16} />, variant: "outline" }
+       // ] 
     }
 ];
 
